@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>Resumes Data</h1>
-	<form:form action=".do" method="POST" commandName="resume">
+	<form:form action="resume.do" method="POST" commandName="resume">
 		<table>
 			<tr>
 				<td>Resume ID</td>

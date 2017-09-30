@@ -43,12 +43,6 @@
 			</props>
 		</property>
 	</bean>
-	<bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
-	    <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
-	    <property name="prefix" value="/WEB-INF/jsp/"/>
-	    <property name="suffix" value=".jsp"/>
-	</bean>
-	<mvc:view-controller path="/login.html" view-name="login" />
 	
 	<tx:annotation-driven />
 	<bean id="transactionManager"

@@ -18,7 +18,7 @@ public class ResumeController {
 	@Autowired
 	private ResumeService resumeService;
 
-	@RequestMapping("/index")
+	@RequestMapping("/jobseeker/jobseekerpage")
 	public String setupForm(Map<String, Object> map) {
 		Resume resume = new Resume();
 		map.put("resume", resume);

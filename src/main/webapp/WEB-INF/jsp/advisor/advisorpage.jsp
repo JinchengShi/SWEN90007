@@ -9,8 +9,6 @@
 
     This page is only visible to an advisor
     <br/>
-
-    <a href="<c:url value="/perform_logout" />">Logout</a>
 	
 </body>
 </html>

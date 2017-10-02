@@ -26,7 +26,7 @@ public class ResumeController {
 		return "resume";
 	}
 
-	@RequestMapping(value = "/resume.do", method = RequestMethod.POST)
+	@RequestMapping(value = "/jobseekerpage.do", method = RequestMethod.POST)
 	public String doActions(@ModelAttribute Resume resume, BindingResult result, @RequestParam String action,
 			Map<String, Object> map) {
 		Resume resumeResult = new Resume();
